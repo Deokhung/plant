@@ -602,5 +602,3 @@ with tab3:
                 st.dataframe(growth_df, width="stretch", height=300)
                 if len(growth_df) > 0:
                     download_csv(growth_df, "생육결과데이터_CSV다운로드")
-    except Exception as e:
-        st.warning(f"⚠️ 이 부분은 데이터 형식 때문에 표시하지 못했어요: {e}")
